@@ -1,0 +1,9 @@
+FROM mysql:latest
+
+ENV MY_SQL_USER root
+
+ENV MY_SQL_PASSWORD root
+
+ENV MY_SQL_DATABASE database
+
+EXPOSE 3306
